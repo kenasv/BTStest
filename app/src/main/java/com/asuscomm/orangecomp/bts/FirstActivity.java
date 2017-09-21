@@ -6,7 +6,7 @@ import android.widget.TextView;
 import android.content.Intent;
 
 public class FirstActivity extends AppCompatActivity {
-
+    private BTSdatabaseHelper btsdatabasehelper = new BTSdatabaseHelper();
     public static final String EXTRA_MESSAGE = "message";
     //объявляем нашу переменную как константу
     @Override

@@ -43,7 +43,7 @@ public class FirstActivity extends AppCompatActivity {
             SQLiteOpenHelper btsdatabasehelper = new BTSdatabaseHelper(this);
 
             TextView nomerz = (TextView) findViewById(R.id.nomer);
-            nomerz.setText("fg");
+            nomerz.setText("проверка создания базы данных");
 
             SQLiteDatabase db = btsdatabasehelper.getReadableDatabase();
             Cursor cursor = db.query("PL",
